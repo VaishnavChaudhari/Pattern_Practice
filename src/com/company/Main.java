@@ -1,14 +1,29 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-       int n = 6;
-       int factorial = 1;
-        for (int i = n - 1; i > 0; i--) {
-         n *= i;
+
+
+        // Patters Tutorial
+        // * * * * * * *
+        //* * * * * *
+        //* * * * *
+        //* * * *
+        //* * *
+        //* *
+        //*
+
+        Scanner cs = new Scanner(System.in);
+        int userValue = cs.nextInt();
+
+        for (int i = 0; i <= userValue; i++) {
+            for (int j = userValue; j >= i  ; j--) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
-        System.out.println(n);
     }
 }
