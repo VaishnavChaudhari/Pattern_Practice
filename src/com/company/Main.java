@@ -20,7 +20,10 @@ public class Main {
         int userValue = cs.nextInt();
 
         for (int i = 0; i <= userValue; i++) {
-            for (int j = userValue; j >= i  ; j--) {
+            for (int j = 0; j < userValue-i; j++) {
+                System.out.print("  ");
+            }
+            for (int j = 0; j < i+1; j++) {
                 System.out.print("* ");
             }
             System.out.println();
