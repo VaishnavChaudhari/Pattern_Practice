@@ -78,7 +78,8 @@ public class Main {
 
             if (i >= n ){
                 for (int j = 0; j < ; j++) {
-                    
+                for (int j = 0;  j < ; j++) {
+
                 }
             }
         }
